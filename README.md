@@ -1,6 +1,5 @@
 # fast-webapp
-webapp written in json2html, htmx
-
+webapp written in json2html, htmx, boostrap, api-restfull
 
 ## About NextExperience
 
