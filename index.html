@@ -12,7 +12,7 @@
     <h4>Api in json2html, htmx, boostrap demo</h4>
     <script>
     // have a button POST a click via AJAX
-    const button = {'<>':'button',' hx-post':'/clicked',' hx-swap':'outerHTML', text:'Click Me'};
+    const button = {'<>':'button', 'class':'button', 'hx-post':'https://pokeapi.co/api/v2/pokemon/ditto',' hx-swap':'outerHTML', text:'Click Me'};
     /*
     @< ! -- have a button POST a click via AJAX -- >
     @< button hx-post="/clicked" hx-swap="outerHTML">
