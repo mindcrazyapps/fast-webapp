@@ -1,6 +1,15 @@
 # fast-webapp
 webapp written in json2html, htmx, boostrap, api-restfull
 
+## source-code
+```
+// have a button POST a click via AJAX with json format
+const button = {'<>':'button', 'class':'button', 'hx-get':'https://pokeapi.co/api/v2/pokemon/ditto',' hx-swap':'outerHTML', text:'Click Me'};
+    
+//render
+document.write(json2html.render({},button));
+```
+
 ## About NextExperience
 
 <img align="right" width="120" height="120" src="https://cdn-icons-png.flaticon.com/512/1600/1600856.png" hspace="50">
