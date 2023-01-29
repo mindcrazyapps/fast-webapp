@@ -2,7 +2,7 @@
 webapp written in json2html, htmx, boostrap, api-restfull
 
 ## source-code
-```
+```javascript
 // have a button POST a click via AJAX with json format
 const button = {'<>':'button', 'class':'button', 'hx-get':'https://pokeapi.co/api/v2/pokemon/ditto',' hx-swap':'outerHTML', text:'Click Me'};
     
